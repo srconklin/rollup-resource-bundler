@@ -1,0 +1,43 @@
+/* 
+	@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700");
+	@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+ */
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+/**************
+ Common 
+ **************/
+html {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	/* 1 */
+	line-height: 1.5;
+	/* 2 */
+}
+
+body {
+	background: #fff;
+}
+
+.y3 {
+	margin-top: 3rem;
+}
+
+.y2 {
+	margin-top: 2rem;
+}
+
+/**************
+Navbar 
+ **************/
+.navbar-item img {
+	max-height: 2.75rem;
+}
+
+/**************
+main layout 
+ **************/
+#main {
+	min-height: 400px;
+}

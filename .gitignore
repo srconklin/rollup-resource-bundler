@@ -1,0 +1,10 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+.env
+
+# npm
+**/node_modules/*
+/public/build/
+npm-debug.log
+yarn-error.log
